@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Build/package output
+build/
+dist/
+*.egg-info/
+
+# Test/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# DV Remux runtime/temp
+.cache/
+*.partial.mp4
+*.incomplete.mp4
+*.rpu
+*.hevc
+*.thd
+*.eac3
+*.ac3
+
+# Local backups from our patching
+*.before-*
+*.backup
+*.bak
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+*~
